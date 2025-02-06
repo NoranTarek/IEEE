@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1720094302 source:f:\into+files\main.c
+	<stdio.h>
+	<stdlib.h>
+	"stack.h"
+
+1720094253 f:\into+files\stack.h
+
+1738860868 source:f:\engineering\ieee\weeks\week 14\into+files\main.c
+	<stdio.h>
+	<stdlib.h>
+	"stack.h"
+
+1738860840 f:\engineering\ieee\weeks\week 14\into+files\stack.h
+
