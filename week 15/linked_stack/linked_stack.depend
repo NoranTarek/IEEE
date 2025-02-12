@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1739381360 source:f:\engineering\ieee\weeks\week 15\linked_stack\main.c
+	<stdio.h>
+	<stdlib.h>
+	"linked_stack.h"
+
+1739381461 f:\engineering\ieee\weeks\week 15\linked_stack\linked_stack.h
+
