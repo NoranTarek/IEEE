@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1739619155 source:f:\engineering\ieee\weeks\week 15\stack_app\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Stack_app.h"
+
+1739382968 f:\engineering\ieee\weeks\week 15\stack_app\stack_app.h
+

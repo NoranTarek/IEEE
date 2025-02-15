@@ -9,7 +9,7 @@ typedef Elementtype StackEntry;
 #endif // INFIX_TO_POSTFIX
 
 #ifdef EVALUATE_POSTFIX
-typedef double Elementtype;
+typedef int Elementtype;
 #define MAXELEMENT 100
 typedef Elementtype StackEntry;
 #define MAXSTACK MAXELEMENTS

@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "Stack_app.h"
 
 void Create_Stack(Stack *ps)
@@ -100,20 +101,20 @@ void InfixToPostfix(char infix[],char postfix[])
     char op,c;
     Stack s;
     Create_Stack(&s);
-    for(i=0 , j=0; (c=infix[i])!='\0'; i++)
+    for(i=0 , j=0; (c=infix[i])!= '\0'; i++)
     {
         if(IsDigit(c))
             postfix[j++]=c;
         else
         {
             if(!StackEmpty(&s))
-                Push(op,&s);
+                op=StackTop(&s);
             while(!StackEmpty(&s) && Precedent(op,c))
             {
                 Pop(&op,&s);
                 postfix[j++]=op;
                 if(!StackEmpty(&s))
-                    Push(op,&s);
+                    op=StackTop(&s);
             }
         }
         Push(c, &s);
@@ -125,7 +126,6 @@ void InfixToPostfix(char infix[],char postfix[])
     }
     postfix[j]='\0';
 }
-
 double EvaluatePostfix(char expr[])
 {
     int i;
@@ -136,7 +136,7 @@ double EvaluatePostfix(char expr[])
     for(i=0 ; (c=expr[i])!='\0'; i++)
     {
         if(IsDigit(c))
-            Push((double)(c-'0'),&s);//علشان طرح الاتنين اسكيو كود يساوى القيمة اللى هى من 0 ل 9
+            Push((double)(c-'0'),&s);
         else
         {
             Pop(&op2,&s);
@@ -150,16 +150,6 @@ double EvaluatePostfix(char expr[])
 }
 int main()
 {
-    //for in to post
-    char infix[]="1+2*3$4/5+6";
-    char postfix[80];
-    InfixToPostfix(infix,postfix);
-    printf("\n %s",postfix);
-    //for evaluation
-    char expr[]="354*+2$";
-    double x;
-    x = EvaluatePostfix(expr);
-    printf("\n %f",x);
-    getch();
+
     return 0;
 }
