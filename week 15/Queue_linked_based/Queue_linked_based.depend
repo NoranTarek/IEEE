@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1740162492 source:f:\engineering\ieee\weeks\week 15\queue_linked_based\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Queue.h"
+	"Queue.c"
+
+1740076337 f:\engineering\ieee\weeks\week 15\queue_linked_based\queue.h
+
+1740162343 f:\engineering\ieee\weeks\week 15\queue_linked_based\queue.c
+	<stdio.h>
+	<stdlib.h>
+	"Queue.h"
+
