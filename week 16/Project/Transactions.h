@@ -1,0 +1,6 @@
+#ifndef TRANSACTIONS_H_INCLUDED
+#define TRANSACTIONS_H_INCLUDED
+
+void Trasactions();
+
+#endif // TRANSACTIONS_H_INCLUDED

@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1741033592 source:f:\engineering\ieee\weeks\week 16\project\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Types.h"
+	"management.h"
+
+1740744256 f:\engineering\ieee\weeks\week 16\project\types.h
+
+1741032479 source:f:\engineering\ieee\weeks\week 16\project\transactions.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Account.h"
+	"Types.h"
+	"Transactions.h"
+	"include.h"
+
+1740854566 f:\engineering\ieee\weeks\week 16\project\transactions.h
+
+1741030393 f:\engineering\ieee\weeks\week 16\project\include.h
+
+1741033112 source:f:\engineering\ieee\weeks\week 16\project\account.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Types.h"
+	"Account.h"
+	"include.h"
+
+1740859818 f:\engineering\ieee\weeks\week 16\project\account.h
+
+1741029930 f:\engineering\ieee\weeks\week 16\project\management.h
+
+1741031191 source:f:\engineering\ieee\weeks\week 16\project\management.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Types.h"
+	"Account.h"
+	"Transactions.h"
+	"include.h"
+
